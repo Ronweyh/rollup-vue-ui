@@ -20,7 +20,7 @@ export default {
         vue(),
         resolve(),
         babel({
-            exclude: ['node_modules/**', '**/*.css']
+            exclude: ['node_modules/**']
         }),
         embedCSS(),
         commonjs(),
